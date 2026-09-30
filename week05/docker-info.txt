@@ -1,0 +1,64 @@
+Client: Docker Engine - Community
+ Version:    29.8.1
+ Context:    default
+ Debug Mode: false
+ Plugins:
+  buildx: Docker Buildx (Docker Inc.)
+    Version:  v0.37.1
+    Path:     /usr/libexec/docker/cli-plugins/docker-buildx
+  compose: Docker Compose (Docker Inc.)
+    Version:  v5.5.1
+    Path:     /usr/libexec/docker/cli-plugins/docker-compose
+  model: Docker Model Runner (Docker Inc.)
+    Version:  v1.2.6
+    Path:     /usr/libexec/docker/cli-plugins/docker-model
+
+Server:
+ Containers: 2
+  Running: 0
+  Paused: 0
+  Stopped: 2
+ Images: 2
+ Server Version: 29.8.1
+ Storage Driver: overlayfs
+  driver-type: io.containerd.snapshotter.v1
+ Logging Driver: json-file
+ Cgroup Driver: systemd
+ Cgroup Version: 2
+ Plugins:
+  Volume: local
+  Network: bridge host ipvlan macvlan null overlay
+  Log: awslogs fluentd gcplogs gelf journald json-file local splunk syslog
+ CDI spec directories:
+  /etc/cdi
+  /var/run/cdi
+ Swarm: inactive
+ Runtimes: io.containerd.runc.v2 runc
+ Default Runtime: runc
+ Init Binary: docker-init
+ containerd version: ee2735368117d2eb259779949d5e75cdafec9761
+ runc version: v1.5.1-0-g8f2685a4
+ init version: de40ad0
+ Security Options:
+  seccomp
+   Profile: builtin
+  cgroupns
+ Kernel Version: 6.18.33.2-microsoft-standard-WSL2
+ Operating System: Ubuntu 24.04.5 LTS
+ OSType: linux
+ Architecture: x86_64
+ CPUs: 28
+ Total Memory: 31.26GiB
+ Name: nx-wsl
+ ID: 3fab04cd-7485-4a51-b67e-ec50410ea1e7
+ Docker Root Dir: /var/lib/docker
+ Debug Mode: false
+ Experimental: false
+ Insecure Registries:
+  ::1/128
+  127.0.0.0/8
+ Live Restore Enabled: false
+ Firewall Backend: iptables
+  EnableUserlandProxy: true
+  UserlandProxyPath: /usr/bin/docker-proxy
+
