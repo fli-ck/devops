@@ -10,3 +10,4 @@
 - [4주차 - 자동화와 협업, 네트워크](./week04/)
 - [5주차 - 도커 w/ GitHub Issue](./week05/)
 - [6주차 - Dockerfile](./week06/)
+- [7주차 - Docker Compose](./week07/)
