@@ -15,12 +15,14 @@ guestbook-web-1     guestbook-web    "python app.py"          web       2 minute
 
 ### `--scale web=3`
 
+```
 NAME                IMAGE            COMMAND                  SERVICE   CREATED          STATUS                    PORTS
 guestbook-nginx-1   nginx:alpine     "/docker-entrypoint.…"   nginx     12 seconds ago   Up Less than a second     0.0.0.0:8080->80/tcp, [::]:8080->80/tcp
 guestbook-redis-1   redis:7-alpine   "docker-entrypoint.s…"   redis     12 seconds ago   Up 11 seconds (healthy)   6379/tcp
 guestbook-web-1     guestbook-web    "python app.py"          web       12 seconds ago   Up 6 seconds (healthy)    5000/tcp
 guestbook-web-2     guestbook-web    "python app.py"          web       12 seconds ago   Up 5 seconds (healthy)    5000/tcp
 guestbook-web-3     guestbook-web    "python app.py"          web       12 seconds ago   Up 5 seconds (healthy)    5000/tcp
+```
 
 ## `--scale web=3` 결과
 
